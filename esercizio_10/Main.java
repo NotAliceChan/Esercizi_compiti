@@ -1,22 +1,31 @@
 package esercizio_10;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("i Brand sono :");
-        int totBrand = 5;
 
-        String name= "bramd";
-        String[] carBrand = new String[totBrand];
+        String[] carBrand = new String[]{
+                "Ferrari", "Porshe", "Toyota", "McLaren", "Bugatti"
+        };
 
-        carBrand[0]= "Ferrari";
-        carBrand[1]= "Porshe";
-        carBrand[2]= "Toyota";
-        carBrand[3]= "McLaren";
-        carBrand[4]= "Bugatti";
+        System.out.println("i Brand Sono in totale : " + carBrand.length);
 
         System.out.println(carBrand[2]);
 
-
+        int[] primalNumbers = new int[6];
+        primalNumbers[0]= 2;
+        primalNumbers[1]= 3;
+        primalNumbers[2]= 5;
+        primalNumbers[3]= 7;
+        primalNumbers[4]= 11;
+        primalNumbers[5]= 13;
+        System.out.println("array numeri primari");
+        System.out.println(Arrays.toString(primalNumbers)
+                .replace("[","")
+                .replace("]", "")
+                .replace(",", " >")
+        );
 
 
     }

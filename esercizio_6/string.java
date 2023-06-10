@@ -12,7 +12,7 @@ public class string {
             char ch3 = string2.charAt(string2.length() - 2);
             char ch4 = string2.charAt(string2.length() - 1);
 
-            System.out.println("La Parola Ã¨ : " + ch1 + ch2 + ch3 + ch4);
+            System.out.println("La Parola è¨ : " + ch1 + ch2 + ch3 + ch4);
         } else {
             System.out.println("ERRORE: una delle due stringhe ha meno di 2 caratteri");
         }
