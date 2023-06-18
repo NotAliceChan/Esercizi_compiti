@@ -1,0 +1,22 @@
+definire una classe Employee con:
+3 variabili di istanza nome, cognome e indirizzo
+un metodo di costruzione che assegna 3 parametri (newEmployeeName, newEmployeeSurname, newEmployeeAddress) alle rispettive proprietà dell'oggetto
+un metodo getEmployeeDetails() che restituisce una Stringa informativa con tutti i dettagli dell'Impiegato
+definire un Badge di classe con:
+una variabile int statica privata chiamata totalNumberOfEmployees (il valore di questa variabile sarà condiviso tra più istanze di classe)
+una variabile stringa privata denominata badgeIdCode
+una variabile pubblica Employee chiamata employee
+un metodo void statico privato chiamato keepTrackOfEmployeesNumber() che incrementa di 1 il totalNumberOfEmployees
+un metodo String privato chiamato generateBadgeIdCode() che restituisce una String contenente nome e cognome del dipendente tra due codici String casuali (es. XYZNomeCognomeZYX)
+un metodo public void chiamato showBadgeDetails() che informa l'utente su:
+il numero totale di dipendenti monitorati dai badge
+i dati del dipendente
+il badgeIdCode
+un metodo di costruzione che accetta un parametro Employee chiamato employeeThatNeedsBadge e:
+chiama il metodo statico per tenere traccia del numero di dipendenti
+assegnare il valore di employeeThatNeedsBadge alla proprietà employee dell'oggetto
+assegnare un codice id generato al badgeIdCode dell'oggetto
+definire una classe tester in cui:
+crea 2 nuovi oggetti Dipendente
+creare il loro nuovo 2 Badge
+mostrare all'utente i dati del tesserino dei 2 dipendenti

@@ -20,27 +20,15 @@ public class Main {
     private static void exercise1() {
         System.out.println("\nesercizio 1:");
         //Write your code here
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
         String frutta = "mela";
 
 
         System.out.println(frutta.toLowerCase());
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
         System.out.println(frutta.toUpperCase());
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
     }
 
@@ -51,20 +39,12 @@ public class Main {
      */
     private static void exercise2() {
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
         System.out.println("\nEsercizio 2:");
         // Change these
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
         String firstName = "Alice";
         String middleName = "NotFen";
@@ -72,11 +52,7 @@ public class Main {
 
         System.out.println(firstName.toUpperCase() + " " + middleName + " " + lastName.toUpperCase()); // <--- Edit this line
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
     }
 
 
@@ -100,11 +76,7 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nEsercizio 3:");
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
         String textFrom2Primitives = String.valueOf(2); // <--- Edit this line
         int textFrom3Primitives = 3;
@@ -117,11 +89,6 @@ public class Main {
         System.out.println(textFrom2Primitives);
 
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
     }
 
 
@@ -136,11 +103,6 @@ public class Main {
     private static void exercise4() {
         System.out.println("\nEsercizio 4:");
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
 
         String endNumbers = "7 8 9";
         String middleNumbers = "       4 5 6";
@@ -148,11 +110,7 @@ public class Main {
 
         System.out.println(earlyNumbers.trim() + " " + middleNumbers.trim() + " " + endNumbers.trim()); // <--- Write your code here
 
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
 
     }
 

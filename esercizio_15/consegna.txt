@@ -1,0 +1,14 @@
+Crea una classe Java chiamata Programmer
+La classe Programmer avrà le seguenti variabili di istanza:
+nome come stringa
+età come numero intero
+wearsGlasses come valore booleano
+La classe Programmer avrà i seguenti metodi:
+drinkCoffe() - che stampa in consolle Espresso è il segreto!
+printDetails() - che stampa nella console NameHere è un programmatore AgeHere-yo
+hasGlasses - che stampa in console NomeQui porta gli occhiali? seguito dal valore della variabile dedicata
+crea una classe di tester Java chiamata TestProgrammers in cui:
+creare 2 oggetti Programmer (istanza di classe)
+definire lo stato degli oggetti assegnando valori alle variabili di istanza
+chiama i metodi drinkCoffee() e printDetails() per il primo oggetto Programmer
+chiama i metodi printDetails() e hasGlasses() per il secondo oggetto Programmer

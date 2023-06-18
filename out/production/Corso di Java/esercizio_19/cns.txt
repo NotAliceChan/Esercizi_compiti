@@ -1,0 +1,10 @@
+Crea una classe chiamata WordGames che ha due metodi:
+metodo addHelloWord che accetta un parametro come input chiamato word e restituisce la stringa Hello [wordHere]
+getFullName che prende in input due parametri chiamati nome e cognome e ne restituisce la concatenazione
+crea una classe chiamata Tester che ha il metodo principale in cui tu:
+creare un nuovo oggetto WordGames
+stampa in console il risultato dell'invocazione del metodo addHelloWord
+stampa in console il risultato dell'invocazione del metodo getFullName
+aggiungi commenti Javadoc a:
+le 2 classi con una breve descrizione e l'autore
+i 3 metodi con una breve descrizione, i parametri e il ritorno
