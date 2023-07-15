@@ -15,7 +15,7 @@ public class Programmer {
     }
 
     public void hasGlasses() {
-        String wearsGlassesString = wearsGlasses ? "si" : "no";
+        String wearsGlassesString = wearsGlasses ? "Si" : "no";
         System.out.println("Indossa " + nome + " gli occhiali? " + wearsGlassesString);
     }
 

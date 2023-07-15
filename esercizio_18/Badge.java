@@ -19,9 +19,9 @@ public class Badge {
     }
 
     public Badge(Employee employeeThatNeedsBadge) {
-        keepTrackOfEmployeesNumber();
         this.employee = employeeThatNeedsBadge;
         this.badgeIdCode = generateBadgeIdCode();
+        keepTrackOfEmployeesNumber();
     }
 
     public void showBadgeDetails() {

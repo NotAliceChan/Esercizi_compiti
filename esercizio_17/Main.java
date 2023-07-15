@@ -19,14 +19,13 @@ System.out.println("Inserisci i numeri di piani");
 house1.setFloorNumber(scanner.nextInt());
 scanner.nextLine();
 
-System.out.println("Inserire i conquilini (massimo 3): ");
-
+System.out.println("Inserire i conquilini: ");
 System.out.println("Esempio : Giampertondola, Anto, Kurolili");
 
 String stringa = scanner.nextLine();
 String[] arrayString = stringa.split(", ");
 
-house1.setResidentsNames(arrayString[0],arrayString[1],arrayString[2]);
+house1.setResidentsNames(arrayString);
 
 System.out.println("indirizzo: " + house1.getIndirizzo());
 System.out.println("i Piani del palazzo sono: " + house1.getFloorNumber());
@@ -35,7 +34,10 @@ System.out.println("Le persone che abitano sono: " + Arrays.toString(house1.getR
         .replace("]", "")
 );
 
+scanner.close();
+
 System.out.println("il capocondominio è " + house1.residentsNames[1]);
+
 
 
 // programma migliorabile con cicli while ( finche l'imput non è corretto )

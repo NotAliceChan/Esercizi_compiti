@@ -5,7 +5,7 @@ public class House {
     String indirizzo;
     int floorNumber;
 
-String[] residentsNames = new String[3];
+String[] residentsNames;
 
 public String getIndirizzo() {
         return indirizzo;
@@ -27,10 +27,9 @@ public String[] getResidentsNames() {
     return residentsNames;
 }
 
-public void setResidentsNames(String s1, String s2, String s3) {
-    this.residentsNames[0]= s1;
-    this.residentsNames[1]= s2;
-    this.residentsNames[2]= s3;
+public void setResidentsNames(String[] residentsNames) {
+    this.residentsNames= residentsNames;
+
 }
 
 }

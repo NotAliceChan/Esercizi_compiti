@@ -1,0 +1,45 @@
+A:
+
+dichiara:
+2 e < o = a 2 -> true
+&& impone che entrabe le soluzione siano true per restituire true.
+(!true dichiara diverso) quindi false
+quindi la soluzione è false
+
+//------------------------------------------------------------------------------
+
+B:
+
+il concetto è lo stesso di prima però in questo caso la risposta
+è true. Visto che le 2 condizzioni sono uguali.
+
+//------------------------------------------------------------------------------
+
+C:
+si dichiara che  t=false and f=true.
+
+nell'espressione dichiaramo !(!t || f)
+||  impone che alemeno 1 sia true
+quindi: t -> falso; ma dichiara ! -> quindi diventa true.
+{il cliclo si ferma perchè con || basta che 1 sia true}
+quindi nello svolgimento avremo:
+!(!false||...);
+!(true||...);
+quindi diverso da true abbiamo false
+la soluzione è false.
+
+//------------------------------------------------------------------------------
+
+D:
+ 6 > 6 ^ !(true && true)
+
+ 6>6 false
+ true && true -> true -> !(true) -> false
+
+ false ^ false
+
+ ^ -> impone che le due risposte discordino per aver un true
+
+Soluzione finale false.
+
+//------------------------------------------------------------------------------
