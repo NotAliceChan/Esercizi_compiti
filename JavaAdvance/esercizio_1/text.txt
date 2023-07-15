@@ -1,0 +1,4 @@
+creare un HashSet con tutti i giorni della settimana e stampare il contenuto dell'HashSet
+creare un'altra implementazione di Set che conservi l'ordine di inserimento dei giorni della settimana e stamparla
+stampare il nuovo set
+stampa la risposta alla domanda Il primo insieme è uguale al secondo?
