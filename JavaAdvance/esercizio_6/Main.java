@@ -1,39 +1,18 @@
 package JavaAdvance.esercizio_6;
 
-import java.util.ArrayList;
-import java.util.List;
+import JavaAdvance.esercizio_6.MathMethod;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        Shape sh1 = new Shape("Triangolo", 3);
-        Shape sh2 = new Shape("Quadrato", 4);
-        Shape sh3 = new Shape("Pentagono", 5);
-        Shape sh4 = new Shape("Esagono", 6);
-        Shape sh5 = new Shape("Ottagono", 8);
+        int numSub = MathMethod.subtract(9, 3);
+        System.out.println("Divisione di 9/3 =  " + numSub);
 
 
-
-
-        sh1.getShapeDetails();
-
-        System.out.println();
-
-        sh2.getShapeDetails();
-
-        System.out.println();
-
-        sh3.getShapeDetails();
-
-        System.out.println();
-
-        sh4.getShapeDetails();
-
-        System.out.println();
-
-        sh5.getShapeDetails();
-
+        int numMultiple = MathMethod.multiplication(2, 10);
+        System.out.println("Moltiplicazione di 2 * 10 = " + numMultiple);
 
     }
 }
+
